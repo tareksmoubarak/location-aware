@@ -14,6 +14,7 @@
 		2B923CE32162A3A5004FBEED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B923CE12162A3A5004FBEED /* LaunchScreen.storyboard */; };
 		2B923CEE2162A3A5004FBEED /* Location_AwareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B923CED2162A3A5004FBEED /* Location_AwareTests.swift */; };
 		2B923CF92162A3A5004FBEED /* Location_AwareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B923CF82162A3A5004FBEED /* Location_AwareUITests.swift */; };
+		2B923D082162A55E004FBEED /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B923D072162A55E004FBEED /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2B923CF42162A3A5004FBEED /* Location AwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Location AwareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B923CF82162A3A5004FBEED /* Location_AwareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location_AwareUITests.swift; sourceTree = "<group>"; };
 		2B923CFA2162A3A5004FBEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B923D072162A55E004FBEED /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B923D082162A55E004FBEED /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				2B923CEC2162A3A5004FBEED /* Location AwareTests */,
 				2B923CF72162A3A5004FBEED /* Location AwareUITests */,
 				2B923CD62162A3A4004FBEED /* Products */,
+				2B923D062162A55E004FBEED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				2B923CFA2162A3A5004FBEED /* Info.plist */,
 			);
 			path = "Location AwareUITests";
+			sourceTree = "<group>";
+		};
+		2B923D062162A55E004FBEED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B923D072162A55E004FBEED /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
